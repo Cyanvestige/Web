@@ -1,0 +1,26 @@
+input{
+	outline:none;
+	font-size:50px;
+}
+.inp-1:focus{
+	box-shadow:0 0 10px rgba(0,0,0,0.8);
+}
+
+#inp-2:checked + label{
+	color:#ff0000;
+	background: #ffff00;
+}
+
+.inp-3:valid{
+	border:3px solid #00ff00;
+}
+.inp-3:invalid{
+	border:3px solid #ff0000;
+}
+.inp-4:enabled{
+	color:#0000ff;
+}
+.inp-4:disabled{
+	color:#ff0000;
+}
+

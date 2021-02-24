@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type = "text/css" href="css/style.css">
+	<title>Balloons</title>
+</head>
+<body>
+	<div class="balloon-red"></div>
+	<div class="score-block">
+		<p>You popped <span class="score">0</span> balloons.</p>
+	</div>
+	<div class="total-shadow">
+		<div class="total-block">
+			<div class="total-wrapper win">
+				<h4>Congratulations</h4>
+				<img src="images/happy.png" alt="happy">
+				<p>You have popped 100 balloons</p>
+			</div>
+			<div class="total-wrapper lose">
+				<h4>Sorry</h4>
+				<img src="images/sad.png" alt="sad">
+				<p>You have popped <span class="score">0</span> balloons.</p>
+				<p>Play Again?</p>
+				<button class="restart">Yes</button>
+				<button class="cancel">No</button>
+			</div>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>

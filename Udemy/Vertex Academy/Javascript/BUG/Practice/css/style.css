@@ -1,0 +1,58 @@
+.balloons{
+	height:200px;
+	width:100px;
+	position: absolute;
+	top:50px;
+	left:0;
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+body{
+	display:flex;
+	overflow:hidden;
+	margin:0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.block{
+	background-color:#fff;
+	width: 300px;
+	height:80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom:0;
+	border-radius: 20px 20px 0 0;
+	left:calc(50% - 150px);
+
+}
+.balloon-red{
+	background-image: url("../images/balloon-red.png");
+}
+
+.total-wrapper{
+	background-color: #fff;
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	text-align: center;
+	justify-content: center;
+	box-shadow: 0 0 20 (0,0,0);
+	z-index: 1000;
+}
+
+.lose{
+	display: none;
+}
+.total-shadow{
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.6);
+
+
+}			

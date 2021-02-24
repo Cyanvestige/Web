@@ -1,0 +1,13 @@
+
+.banner{
+	height: 612px;
+
+
+	background-size:cover; 
+	padding-top:230px;
+	box-sizing: border-box;
+}
+li{
+	float:left;
+	margin-right:60px;
+}

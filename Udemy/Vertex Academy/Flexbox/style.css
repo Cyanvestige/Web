@@ -1,0 +1,23 @@
+.block{
+	background-color: orange;
+	border:1px solid red;
+	font-size:30px;
+	color:white;
+	flex-grow:1;
+	width:500px;
+	height:150px;
+
+}
+.container{
+	display:flex;
+	
+	height:1000px;
+	justify-content: center;
+	align-items: center;
+	
+	
+	
+}
+.block-2{
+	flex-shrink:3;
+}

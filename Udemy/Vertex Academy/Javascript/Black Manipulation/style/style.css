@@ -1,0 +1,100 @@
+
+.block{
+	width: 150px;
+	height: 150px;
+	background: linear-gradient(to top,#333 0%,#666 30%,#333 100%);
+	box-shadow: inset 2px 2px 5px 2px #333;
+	border-radius:10px;
+	color:white;
+	display: inline-block;
+	vertical-align: top;
+}
+h3{
+	font-family: Arial;
+	font-size: 18px;
+	text-align: center;
+}
+
+.vertical{
+	width:75px;
+	height:75px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin:0 auto;
+}
+
+.vertical input{
+	transform: rotate(90deg);
+	width:75px;
+}
+
+
+.horizontal{
+	width: 100px;
+	margin:0 auto;
+}
+
+.horizontal input{
+	width:100px;
+}
+
+.horizontal label{
+	width: 100px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.vertical label{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 75px;
+}
+
+.options{
+	height: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+button{
+	margin-top: 10px;
+}
+
+.hex{
+	width: 100px;
+	margin:35px auto 0;
+}
+
+#hex{
+	width:70px;
+}
+
+.rgb{
+	width:100px;
+	margin:0 auto;
+}
+
+.rgb input{
+	width: 80px;
+}
+
+.container{
+	margin-top: 20px;
+	position:relative;
+}
+
+#cube{
+	width: 150px;
+	height: 150px;
+	background-color:red;
+	position: absolute;
+	left: 0;
+	right:0;
+
+}
+

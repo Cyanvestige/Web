@@ -1,0 +1,112 @@
+body{
+	background-color: #ffffe5;
+}
+
+.struct-block{
+	
+	width: 400px;
+	border-radius: 30px;
+	margin:0 auto;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 10px #ccc;
+}
+
+.title-block{
+	width: 100%;
+	height: 100px;
+	border-radius :30px 30px 0 0; 
+	background-color: #3f94d6;
+	color:white;
+}
+
+h2{
+	margin: 0;
+	text-align: center;
+	line-height: 80px;
+	font-size: 32px;
+	font-family: Arial;
+}
+
+.input-block{
+	display: flex;
+
+}
+
+.inputfield{
+	width: 85%;
+	height:70px;
+	border:0;
+	outline: none;
+	font-family: Arial;
+}
+
+.plus{
+	width:15%;
+	background-color: #BBE1FB;
+	justify-content: center;
+	align-items: center;
+	outline: none;
+	font-size: 40px;
+	font-weight: bold;
+	border:0;
+}
+
+.task-block{
+	margin:0;
+	padding: 0;
+
+}
+
+li{
+	list-style: none;
+	display:flex;
+	border-top:1px solid #cfd8dc;
+	
+}
+
+.col-1{
+	height:60px;
+	width: 20%;
+	background-color: #BBE1FB;
+	display: flex;
+	float:left;
+	justify-content: center;
+	align-items: center;
+}
+
+.col-2{
+	width:65%;
+	border:0;
+	outline:0;
+	background-color: white;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.list:last-child .col-1{
+	border-bottom-left-radius: 30px;
+}
+
+.list:last-child .col-3{
+	border-bottom-right-radius: 30px;
+}
+
+.delete{
+	background-image:url(image/trash.svg);
+	background-color: #BBE1FB;
+	width:15%;
+}
+
+.col-3:hover{
+	background-color: #3f94d6;
+	cursor: pointer;
+}
+
+.checked{
+	text-decoration: line-through;
+}
+
+

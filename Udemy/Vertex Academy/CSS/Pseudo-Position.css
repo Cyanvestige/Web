@@ -1,0 +1,16 @@
+p{
+	font-size:20px;
+	color:#0000ff;
+}
+
+p:first-child{
+	color:red;
+}
+p:last-child{
+	color:yellow;
+}
+
+
+p:first-of-type{
+	background:#f2f200;
+}

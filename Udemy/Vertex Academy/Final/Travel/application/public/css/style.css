@@ -1,0 +1,19 @@
+.slide {
+	margin-top: 20px;
+}
+footer {
+	height: 80px;
+	margin-top: 50px;
+}
+
+footer>.container, footer .row {
+	height: 100%;
+}
+
+footer .d-flex{
+	margin-top:25px;
+}
+
+.card{
+	margin-top:20px;
+}
