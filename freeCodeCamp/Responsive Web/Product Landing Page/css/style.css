@@ -1,0 +1,175 @@
+body{
+    font-family: sans-serif, Arial, Helvetica;
+    background-color: #eee;
+}
+
+@media (max-width:800px){
+    #header{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    #nav-bar{
+        display: flex;
+        position: relative;
+        right:0;
+        flex-direction: column;
+    }
+    
+
+}
+#header{
+    display:flex;
+    background-color: #eee;
+    width: 100%;
+    padding-top:50px;
+    justify-content: space-between;
+    margin: 0 30px;
+    position: fixed;
+    top:0;
+}
+
+#header-img{
+    width: 300px;
+    height: auto;
+    
+}
+#nav-bar{
+    display: flex;
+    position: relative;
+    right:0;
+}
+
+.nav-link{
+    text-align: center;
+    margin:auto 50px;
+    text-decoration: none;
+    color:#000;
+}
+
+.wrapper{
+    width:800px;
+    max-width: 100%;
+    margin:0 auto;
+    display: flex;
+    margin-top:100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 30px;
+    margin: 20px auto;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email{
+    margin-bottom: 20px;
+    width:300px;
+    height:25px;
+}
+
+#submit{
+    background-color: rgb(240, 194, 108);
+    color: black;
+    height:30px;
+    width: 150px;
+    border:none;
+    font-weight: bold;
+}
+
+@keyframes colorChange{
+    0%{background-color:rgb(240, 194, 108);}
+    100%{background-color:orange;}
+}
+#submit:hover{
+    animation-name: colorChange;
+    animation-duration: 2s;
+    cursor: pointer;
+}
+
+.ad{
+    margin-top:70px;
+}
+.fab{
+    width:200px;
+}
+
+.special{
+    margin:20px auto;
+    display:flex;
+    align-items: center;
+}
+
+
+.ad p{
+    font-size:15px;
+}
+.intro{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.material::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    content:"\f06d";
+    font-size:50px;
+    width:130px;
+    color:rgb(250, 150, 78);
+}
+
+.shipping::before{
+    font-family:"Font Awesome 5 Free" ;
+    font-weight: 800;
+    content:"\f0d1";
+    font-size:50px;
+    width:130px;
+    color:rgb(250, 150, 78);
+}
+
+.quality::before{
+    font-family:"Font Awesome 5 Free" ;
+    font-weight: 800;
+    content:"\f241";
+    font-size:50px;
+    width:130px;
+    color:rgb(250, 150, 78);
+}
+
+#plans{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+
+.plan{
+    border: 2px solid black;
+    width:33%;
+    height:fit-content;
+    margin: 10px 10px;
+}
+
+.plantitle{
+    background-color:gray;
+    text-align: center;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 150%;
+    margin-bottom: 30px;
+}
+.plandetails{
+    text-align: center;
+    margin:40px 20px;
+}
+
+

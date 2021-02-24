@@ -1,0 +1,71 @@
+body{
+    background-image: url(https://miro.medium.com/max/1760/0*yjzJavtODjSZ1T7E);
+    background-size:cover;
+    background-attachment:fixed;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    backdrop-filter: blur(4px);
+}
+
+
+
+.wrapper{
+    width:600px;
+    margin:0 auto;
+}
+
+.title-block{
+    text-align: center;
+    margin: 50px auto;
+}
+
+#description{
+    font-size: 16px;
+    font-style: italic;
+}
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.field:first-of-type{
+    padding-top:40px;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    padding:20px;
+}
+
+.inputfield{
+    height:40px;
+    border-radius: 10px;
+    outline: none;
+    outline-color: blue;
+}
+
+#dropdown{
+    height:40px;
+    border-radius: 10px;
+    outline: none;
+    outline-color: blue;
+}
+
+.comments{
+    height:80px;
+    width:80%;
+}
+
+button{
+    color:white;
+    background-color: #da802c;
+    border:none;
+    display: inline-block;
+    margin:30px;
+    width: 80%;
+    height:35px;
+}
